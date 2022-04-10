@@ -7,13 +7,13 @@ public class Ball {
 	public double x;
 	public double y;
 	public double dx;
-	public double dy;
+	public double dy;//this isn't obvious of purpose
 	
 	private double angle;
 	
 	private final double SPEED = 0.7;
 	private final int WIDTH = 5;
-	private final int HEIGHT = 5;
+	private final int HEIGHT = 5;//these should be more descriptive
 	
 	Ball() {//not given a scope classifier or a return type?
 		this.x = Game.WIDTH/2;
